@@ -15,6 +15,8 @@
 		2E96FEBF1D250A2A006833AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E96FEBD1D250A2A006833AF /* LaunchScreen.storyboard */; };
 		2E96FECA1D250A2A006833AF /* UsePlistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E96FEC91D250A2A006833AF /* UsePlistTests.m */; };
 		2E96FED51D250A2A006833AF /* UsePlistUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E96FED41D250A2A006833AF /* UsePlistUITests.m */; };
+		2E96FEE31D250AF3006833AF /* student.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E96FEE21D250AF3006833AF /* student.plist */; };
+		2E96FEE61D252379006833AF /* studentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E96FEE51D252379006833AF /* studentModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		2E96FED01D250A2A006833AF /* UsePlistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsePlistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E96FED41D250A2A006833AF /* UsePlistUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UsePlistUITests.m; sourceTree = "<group>"; };
 		2E96FED61D250A2A006833AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E96FEE21D250AF3006833AF /* student.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = student.plist; sourceTree = "<group>"; };
+		2E96FEE41D252379006833AF /* studentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = studentModel.h; sourceTree = "<group>"; };
+		2E96FEE51D252379006833AF /* studentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = studentModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 				2E96FEBB1D250A2A006833AF /* Assets.xcassets */,
 				2E96FEBD1D250A2A006833AF /* LaunchScreen.storyboard */,
 				2E96FEC01D250A2A006833AF /* Info.plist */,
+				2E96FEE21D250AF3006833AF /* student.plist */,
+				2E96FEE41D252379006833AF /* studentModel.h */,
+				2E96FEE51D252379006833AF /* studentModel.m */,
 				2E96FEAF1D250A2A006833AF /* Supporting Files */,
 			);
 			path = UsePlist;
@@ -245,6 +253,7 @@
 			files = (
 				2E96FEBF1D250A2A006833AF /* LaunchScreen.storyboard in Resources */,
 				2E96FEBC1D250A2A006833AF /* Assets.xcassets in Resources */,
+				2E96FEE31D250AF3006833AF /* student.plist in Resources */,
 				2E96FEBA1D250A2A006833AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E96FEB71D250A2A006833AF /* ViewController.m in Sources */,
+				2E96FEE61D252379006833AF /* studentModel.m in Sources */,
 				2E96FEB41D250A2A006833AF /* AppDelegate.m in Sources */,
 				2E96FEB11D250A2A006833AF /* main.m in Sources */,
 			);
@@ -498,6 +508,7 @@
 				2E96FEDB1D250A2A006833AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E96FEDC1D250A2A006833AF /* Build configuration list for PBXNativeTarget "UsePlistTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +517,7 @@
 				2E96FEDE1D250A2A006833AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E96FEDF1D250A2A006833AF /* Build configuration list for PBXNativeTarget "UsePlistUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +526,7 @@
 				2E96FEE11D250A2A006833AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
