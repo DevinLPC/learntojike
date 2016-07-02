@@ -1,6 +1,6 @@
 //
-//  ViewController.swift
-//  NavigationController
+//  FirstViewController.swift
+//  TabBarController
 //
 //  Created by mayee on 16/7/2.
 //  Copyright © 2016年 jikexueyuan. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
