@@ -1,14 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   data.plist
-   NavigationController
-
-   Created by mayee on 16/7/2.
-   Copyright (c) 2016年 jikexueyuan. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<array>
+	<dict>
+		<key>title</key>
+		<string>程序员吃饭</string>
+		<key>content</key>
+		<string>几个程序员去吃饭，有人点了一道菜：麻辣牛蛙。然后其中有个人说自己不吃牛蛙，于是负责点菜的直接在麻辣牛蛙前划了两道斜线，就像这样： //麻辣牛蛙 现场没有任何人觉得有哪里不对，直到服务员端上来11盘麻辣牛蛙。</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>土豪的理想</string>
+		<key>content</key>
+		<string>昨天和几个有钱人一桌吃饭，我问他们：你们这么有钱，那么你们的理想和生活目标是什么？他们说：等我们再奋斗几年，就去农村，买个农家院，养点鸡鸭鹅狗猪羊，种点花草，春天挖野菜，夏天钓钓鱼，秋天摘桔子，冬天扫扫雪，没事的时候几个朋友逗逗地主，喝点小酒，吹吹牛逼，农村生活多美好啊！吃完饭我回家琢磨半宿，妈的，土豪的理想就是我现在的生活，我还奋斗个鬼啊！</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>小学生作文《秘密》</string>
+		<key>content</key>
+		<string>妈妈说我捡来的 
+我笑了笑
+我不想说出一个秘密
+ ——怕妈妈伤心 
+我知道
+爸爸姓万
+哥哥姓万
+我也姓万
+只有妈妈姓姜
+谁是捡来的
+不说你也明白 
+嘘！我会把这个秘密永远藏在心中</string>
+	</dict>
+</array>
 </plist>

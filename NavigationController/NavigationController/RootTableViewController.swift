@@ -9,9 +9,14 @@
 import UIKit
 
 class RootTableViewController: UITableViewController {
-
+    
+    private var dataSoure:NSArray!
     override func viewDidLoad() {
+        
         super.viewDidLoad()
+        
+        dataSoure = NSArray(contentsOfURL: NSBundle.mainBundle().URLForResource("data", withExtension: "plist")!)
+        print(dataSoure)
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -29,23 +34,34 @@ class RootTableViewController: UITableViewController {
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1 
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return dataSoure.count
     }
 
-    /*
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
 
         // Configure the cell...
+        let joke = dataSoure.objectAtIndex(indexPath.row) as! NSDictionary
+        
+        let lable = cell.viewWithTag(1) as!UILabel
+        lable.text = joke.objectForKey("title") as? String
 
         return cell
     }
-    */
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        let joke = dataSoure.objectAtIndex(indexPath.row) as! NSDictionary
+        let contentVc = storyboard?.instantiateViewControllerWithIdentifier("ContentVC") as! ContentViewController
+        contentVc.setContent(joke.objectForKey("content") as! String)
+        navigationController?.pushViewController(contentVc, animated: true)
+    }
 
     /*
     // Override to support conditional editing of the table view.

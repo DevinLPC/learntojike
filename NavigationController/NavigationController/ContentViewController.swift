@@ -9,9 +9,12 @@
 import UIKit
 
 class ContentViewController: UIViewController {
+    private var content:String!
 
+    @IBOutlet weak var contentTv: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        contentTv.text = content
 
         // Do any additional setup after loading the view.
     }
@@ -21,6 +24,10 @@ class ContentViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func setContent(str:String) {
+        self.content = str
+        
+    }
 
     /*
     // MARK: - Navigation
