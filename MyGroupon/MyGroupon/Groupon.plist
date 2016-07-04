@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>grouponName</key>
+		<string>全聚德精品果木烤鸭</string>
+		<key>price</key>
+		<integer>138</integer>
+		<key>photo</key>
+		<string>1.jpg</string>
+		<key>total</key>
+		<integer>20</integer>
+	</dict>
+	<dict>
+		<key>grouponName</key>
+		<string>绍兴饭店喜宴尊贵人套餐</string>
+		<key>price</key>
+		<integer>1288</integer>
+		<key>photo</key>
+		<string>2.jpg</string>
+		<key>total</key>
+		<integer>21</integer>
+	</dict>
+	<dict>
+		<key>grouponName</key>
+		<string>四季草堂8~10人餐</string>
+		<key>price</key>
+		<integer>1200</integer>
+		<key>photo</key>
+		<string>3.jpg</string>
+		<key>total</key>
+		<integer>9</integer>
+	</dict>
+	<dict>
+		<key>grouponName</key>
+		<string>鼎中鼎澳门豆捞双人套餐</string>
+		<key>price</key>
+		<integer>145</integer>
+		<key>photo</key>
+		<string>4.jpg</string>
+		<key>total</key>
+		<integer>34</integer>
+	</dict>
+	<dict>
+		<key>grouponName</key>
+		<string>纯彩日料放题</string>
+		<key>price</key>
+		<integer>368</integer>
+		<key>photo</key>
+		<string>5.jpg</string>
+		<key>total</key>
+		<integer>21</integer>
+	</dict>
+	<dict>
+		<key>grouponName</key>
+		<string>银子日本料理铁板烧</string>
+		<key>price</key>
+		<integer>188</integer>
+		<key>photo</key>
+		<string>6.jpg</string>
+		<key>total</key>
+		<integer>24</integer>
+	</dict>
+</array>
+</plist>
