@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EB17CEB1D2A233E007A716B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB17CEA1D2A233E007A716B /* main.m */; };
+		2EB17CEE1D2A233E007A716B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB17CED1D2A233E007A716B /* AppDelegate.m */; };
+		2EB17CF11D2A233E007A716B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB17CF01D2A233E007A716B /* ViewController.m */; };
+		2EB17CF41D2A233F007A716B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB17CF21D2A233F007A716B /* Main.storyboard */; };
+		2EB17CF61D2A233F007A716B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB17CF51D2A233F007A716B /* Assets.xcassets */; };
+		2EB17CF91D2A233F007A716B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB17CF71D2A233F007A716B /* LaunchScreen.storyboard */; };
+		2EB17D041D2A233F007A716B /* MyAotuLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB17D031D2A233F007A716B /* MyAotuLayoutTests.m */; };
+		2EB17D0F1D2A233F007A716B /* MyAotuLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB17D0E1D2A233F007A716B /* MyAotuLayoutUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EB17D001D2A233F007A716B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EB17CDE1D2A233E007A716B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EB17CE51D2A233E007A716B;
+			remoteInfo = MyAotuLayout;
+		};
+		2EB17D0B1D2A233F007A716B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EB17CDE1D2A233E007A716B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EB17CE51D2A233E007A716B;
+			remoteInfo = MyAotuLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EB17CE61D2A233E007A716B /* MyAotuLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAotuLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EB17CEA1D2A233E007A716B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2EB17CEC1D2A233E007A716B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2EB17CED1D2A233E007A716B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2EB17CEF1D2A233E007A716B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2EB17CF01D2A233E007A716B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2EB17CF31D2A233F007A716B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EB17CF51D2A233F007A716B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EB17CF81D2A233F007A716B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EB17CFA1D2A233F007A716B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EB17CFF1D2A233F007A716B /* MyAotuLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAotuLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EB17D031D2A233F007A716B /* MyAotuLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAotuLayoutTests.m; sourceTree = "<group>"; };
+		2EB17D051D2A233F007A716B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EB17D0A1D2A233F007A716B /* MyAotuLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAotuLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EB17D0E1D2A233F007A716B /* MyAotuLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAotuLayoutUITests.m; sourceTree = "<group>"; };
+		2EB17D101D2A233F007A716B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EB17CE31D2A233E007A716B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EB17CFC1D2A233F007A716B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EB17D071D2A233F007A716B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EB17CDD1D2A233E007A716B = {
+			isa = PBXGroup;
+			children = (
+				2EB17CE81D2A233E007A716B /* MyAotuLayout */,
+				2EB17D021D2A233F007A716B /* MyAotuLayoutTests */,
+				2EB17D0D1D2A233F007A716B /* MyAotuLayoutUITests */,
+				2EB17CE71D2A233E007A716B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EB17CE71D2A233E007A716B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EB17CE61D2A233E007A716B /* MyAotuLayout.app */,
+				2EB17CFF1D2A233F007A716B /* MyAotuLayoutTests.xctest */,
+				2EB17D0A1D2A233F007A716B /* MyAotuLayoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EB17CE81D2A233E007A716B /* MyAotuLayout */ = {
+			isa = PBXGroup;
+			children = (
+				2EB17CEC1D2A233E007A716B /* AppDelegate.h */,
+				2EB17CED1D2A233E007A716B /* AppDelegate.m */,
+				2EB17CEF1D2A233E007A716B /* ViewController.h */,
+				2EB17CF01D2A233E007A716B /* ViewController.m */,
+				2EB17CF21D2A233F007A716B /* Main.storyboard */,
+				2EB17CF51D2A233F007A716B /* Assets.xcassets */,
+				2EB17CF71D2A233F007A716B /* LaunchScreen.storyboard */,
+				2EB17CFA1D2A233F007A716B /* Info.plist */,
+				2EB17CE91D2A233E007A716B /* Supporting Files */,
+			);
+			path = MyAotuLayout;
+			sourceTree = "<group>";
+		};
+		2EB17CE91D2A233E007A716B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EB17CEA1D2A233E007A716B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EB17D021D2A233F007A716B /* MyAotuLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EB17D031D2A233F007A716B /* MyAotuLayoutTests.m */,
+				2EB17D051D2A233F007A716B /* Info.plist */,
+			);
+			path = MyAotuLayoutTests;
+			sourceTree = "<group>";
+		};
+		2EB17D0D1D2A233F007A716B /* MyAotuLayoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2EB17D0E1D2A233F007A716B /* MyAotuLayoutUITests.m */,
+				2EB17D101D2A233F007A716B /* Info.plist */,
+			);
+			path = MyAotuLayoutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EB17CE51D2A233E007A716B /* MyAotuLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EB17D131D2A233F007A716B /* Build configuration list for PBXNativeTarget "MyAotuLayout" */;
+			buildPhases = (
+				2EB17CE21D2A233E007A716B /* Sources */,
+				2EB17CE31D2A233E007A716B /* Frameworks */,
+				2EB17CE41D2A233E007A716B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyAotuLayout;
+			productName = MyAotuLayout;
+			productReference = 2EB17CE61D2A233E007A716B /* MyAotuLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EB17CFE1D2A233F007A716B /* MyAotuLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EB17D161D2A233F007A716B /* Build configuration list for PBXNativeTarget "MyAotuLayoutTests" */;
+			buildPhases = (
+				2EB17CFB1D2A233F007A716B /* Sources */,
+				2EB17CFC1D2A233F007A716B /* Frameworks */,
+				2EB17CFD1D2A233F007A716B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EB17D011D2A233F007A716B /* PBXTargetDependency */,
+			);
+			name = MyAotuLayoutTests;
+			productName = MyAotuLayoutTests;
+			productReference = 2EB17CFF1D2A233F007A716B /* MyAotuLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2EB17D091D2A233F007A716B /* MyAotuLayoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EB17D191D2A233F007A716B /* Build configuration list for PBXNativeTarget "MyAotuLayoutUITests" */;
+			buildPhases = (
+				2EB17D061D2A233F007A716B /* Sources */,
+				2EB17D071D2A233F007A716B /* Frameworks */,
+				2EB17D081D2A233F007A716B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EB17D0C1D2A233F007A716B /* PBXTargetDependency */,
+			);
+			name = MyAotuLayoutUITests;
+			productName = MyAotuLayoutUITests;
+			productReference = 2EB17D0A1D2A233F007A716B /* MyAotuLayoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EB17CDE1D2A233E007A716B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jikexueyuan;
+				TargetAttributes = {
+					2EB17CE51D2A233E007A716B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					2EB17CFE1D2A233F007A716B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2EB17CE51D2A233E007A716B;
+					};
+					2EB17D091D2A233F007A716B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2EB17CE51D2A233E007A716B;
+					};
+				};
+			};
+			buildConfigurationList = 2EB17CE11D2A233E007A716B /* Build configuration list for PBXProject "MyAotuLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EB17CDD1D2A233E007A716B;
+			productRefGroup = 2EB17CE71D2A233E007A716B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EB17CE51D2A233E007A716B /* MyAotuLayout */,
+				2EB17CFE1D2A233F007A716B /* MyAotuLayoutTests */,
+				2EB17D091D2A233F007A716B /* MyAotuLayoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EB17CE41D2A233E007A716B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB17CF91D2A233F007A716B /* LaunchScreen.storyboard in Resources */,
+				2EB17CF61D2A233F007A716B /* Assets.xcassets in Resources */,
+				2EB17CF41D2A233F007A716B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EB17CFD1D2A233F007A716B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EB17D081D2A233F007A716B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EB17CE21D2A233E007A716B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB17CF11D2A233E007A716B /* ViewController.m in Sources */,
+				2EB17CEE1D2A233E007A716B /* AppDelegate.m in Sources */,
+				2EB17CEB1D2A233E007A716B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EB17CFB1D2A233F007A716B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB17D041D2A233F007A716B /* MyAotuLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EB17D061D2A233F007A716B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB17D0F1D2A233F007A716B /* MyAotuLayoutUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EB17D011D2A233F007A716B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EB17CE51D2A233E007A716B /* MyAotuLayout */;
+			targetProxy = 2EB17D001D2A233F007A716B /* PBXContainerItemProxy */;
+		};
+		2EB17D0C1D2A233F007A716B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EB17CE51D2A233E007A716B /* MyAotuLayout */;
+			targetProxy = 2EB17D0B1D2A233F007A716B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EB17CF21D2A233F007A716B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EB17CF31D2A233F007A716B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EB17CF71D2A233F007A716B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EB17CF81D2A233F007A716B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EB17D111D2A233F007A716B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EB17D121D2A233F007A716B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EB17D141D2A233F007A716B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyAotuLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jikeyueyuan.MyAotuLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2EB17D151D2A233F007A716B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyAotuLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jikeyueyuan.MyAotuLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2EB17D171D2A233F007A716B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyAotuLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jikeyueyuan.MyAotuLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyAotuLayout.app/MyAotuLayout";
+			};
+			name = Debug;
+		};
+		2EB17D181D2A233F007A716B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyAotuLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jikeyueyuan.MyAotuLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyAotuLayout.app/MyAotuLayout";
+			};
+			name = Release;
+		};
+		2EB17D1A1D2A233F007A716B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyAotuLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jikeyueyuan.MyAotuLayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyAotuLayout;
+			};
+			name = Debug;
+		};
+		2EB17D1B1D2A233F007A716B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyAotuLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jikeyueyuan.MyAotuLayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyAotuLayout;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EB17CE11D2A233E007A716B /* Build configuration list for PBXProject "MyAotuLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB17D111D2A233F007A716B /* Debug */,
+				2EB17D121D2A233F007A716B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EB17D131D2A233F007A716B /* Build configuration list for PBXNativeTarget "MyAotuLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB17D141D2A233F007A716B /* Debug */,
+				2EB17D151D2A233F007A716B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2EB17D161D2A233F007A716B /* Build configuration list for PBXNativeTarget "MyAotuLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB17D171D2A233F007A716B /* Debug */,
+				2EB17D181D2A233F007A716B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2EB17D191D2A233F007A716B /* Build configuration list for PBXNativeTarget "MyAotuLayoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB17D1A1D2A233F007A716B /* Debug */,
+				2EB17D1B1D2A233F007A716B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EB17CDE1D2A233E007A716B /* Project object */;
+}
