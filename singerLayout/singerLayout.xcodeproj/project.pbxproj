@@ -30,6 +30,8 @@
 		2EB17DC11D2D3141007A716B /* singerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB17DC01D2D3141007A716B /* singerModel.m */; };
 		2EB17DC41D2E035B007A716B /* normal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EB17DC21D2E035B007A716B /* normal.jpg */; };
 		2EB17DC51D2E035B007A716B /* highlighted.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EB17DC31D2E035B007A716B /* highlighted.jpg */; };
+		2EB17DC71D2E22D2007A716B /* singer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EB17DC61D2E22D2007A716B /* singer.xib */; };
+		2EB17DCD1D2E322D007A716B /* singerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB17DCC1D2E322D007A716B /* singerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +84,9 @@
 		2EB17DC01D2D3141007A716B /* singerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = singerModel.m; sourceTree = "<group>"; };
 		2EB17DC21D2E035B007A716B /* normal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = normal.jpg; sourceTree = "<group>"; };
 		2EB17DC31D2E035B007A716B /* highlighted.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = highlighted.jpg; sourceTree = "<group>"; };
+		2EB17DC61D2E22D2007A716B /* singer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = singer.xib; path = ../singer.xib; sourceTree = "<group>"; };
+		2EB17DCB1D2E322D007A716B /* singerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = singerView.h; sourceTree = "<group>"; };
+		2EB17DCC1D2E322D007A716B /* singerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = singerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +141,8 @@
 				2EB17D6B1D2D2C2F007A716B /* AppDelegate.m */,
 				2EB17DBF1D2D3141007A716B /* singerModel.h */,
 				2EB17DC01D2D3141007A716B /* singerModel.m */,
+				2EB17DCB1D2E322D007A716B /* singerView.h */,
+				2EB17DCC1D2E322D007A716B /* singerView.m */,
 				2EB17D6D1D2D2C2F007A716B /* ViewController.h */,
 				2EB17D6E1D2D2C2F007A716B /* ViewController.m */,
 				2EB17D701D2D2C2F007A716B /* Main.storyboard */,
@@ -191,6 +198,7 @@
 				2EB17DC21D2E035B007A716B /* normal.jpg */,
 				2EB17DC31D2E035B007A716B /* highlighted.jpg */,
 				2EB17D9A1D2D2D50007A716B /* picList.plist */,
+				2EB17DC61D2E22D2007A716B /* singer.xib */,
 			);
 			path = pic;
 			sourceTree = "<group>";
@@ -309,6 +317,7 @@
 				2EB17DB71D2D3071007A716B /* 8.jpg in Resources */,
 				2EB17DB51D2D3071007A716B /* 6.jpg in Resources */,
 				2EB17D9B1D2D2D50007A716B /* picList.plist in Resources */,
+				2EB17DC71D2E22D2007A716B /* singer.xib in Resources */,
 				2EB17DC51D2E035B007A716B /* highlighted.jpg in Resources */,
 				2EB17DAF1D2D3071007A716B /* 10.jpg in Resources */,
 				2EB17DB01D2D3071007A716B /* 11.jpg in Resources */,
@@ -342,6 +351,7 @@
 				2EB17D6F1D2D2C2F007A716B /* ViewController.m in Sources */,
 				2EB17DC11D2D3141007A716B /* singerModel.m in Sources */,
 				2EB17D6C1D2D2C2F007A716B /* AppDelegate.m in Sources */,
+				2EB17DCD1D2E322D007A716B /* singerView.m in Sources */,
 				2EB17D691D2D2C2F007A716B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

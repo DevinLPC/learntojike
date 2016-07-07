@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "singerModel.h"
+#import "singerView.h"
+
 
 
 #define Ymargin 40    //view距离控制器顶部的距离
@@ -43,8 +45,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self arrayAll];
+ 
     
-  
     int iXmargin = (self.view.frame.size.width - (viewWidth*column))/(column+1);
 
     for (int i =0; i < 9;i++) {
@@ -54,12 +56,43 @@
             int iRow = i/column;   //行
             int x = iXmargin + (viewWidth+iXmargin)*iColumn;
             int y = Ymargin + (viewHeight+viewYmargin)*iRow;
-            UIView *view1 = [[UIView alloc]initWithFrame:CGRectMake(x, y, viewWidth, viewHeight)];
-            [self.view addSubview:view1];
-            [self addSubControl:view1 model:mod];
-    
+            //UIView *view1 = [[UIView alloc]initWithFrame:CGRectMake(x, y, viewWidth, viewHeight)];
+            //[self.view addSubview:view1];
+            //[self addSubControl:view1 model:mod];
+            
+            /*
+            //读取xib中的视图
+            NSArray *arr = [[NSBundle mainBundle]loadNibNamed:@"singer" owner:nil options:nil];
+            //获取数组第一个元素
+            UIView *viewFromXib = [arr firstObject];
+            viewFromXib.frame = CGRectMake(x, y, viewWidth, viewHeight);
+            
+            [self.view addSubview:viewFromXib];
+            
+            //找到view里的image控件
+            UIImageView *img = viewFromXib.subviews[0];//取得第一个元素
+            img.image = [UIImage imageNamed:mod.pic];
+            
+            //找到view里的label控件
+            //UILabel *label = viewFromXib.subviews[1];
+            UILabel * label = [viewFromXib viewWithTag:10]; //通过tag的方式访问子控件
+            label.text = mod.songname;
+            
+            //找打view里的button控件
+            UIButton *btn = viewFromXib.subviews[2];
+            [btn addTarget:self action:@selector(download:) forControlEvents:UIControlEventTouchUpInside];
+           */
+            
+            singerView *view = [singerView share];
+            view.frame =CGRectMake(x, y, viewWidth, viewHeight);
+            [self.view addSubview:view];
+            //view.singerViewImage.image = [UIImage imageNamed:mod.pic];
+            //view.singerViewLabel.text = mod.songname;
+            view.model = mod;
+            
         }
     }
+    
     
 }
 - (void)addSubControl:(UIView*)uiviewParent model:(singerModel*)model1{
@@ -85,14 +118,14 @@
     [btn setBackgroundImage:[UIImage imageNamed:@"highlighted.jpg"] forState:UIControlStateHighlighted];
     btn.titleLabel.font = [UIFont systemFontOfSize:14];
     
-    [btn addTarget:self action:@selector(download) forControlEvents:UIControlEventTouchUpInside];
+    [btn addTarget:self action:@selector(download:) forControlEvents:UIControlEventTouchUpInside];
     
     [uiviewParent addSubview:btn];
     
 
     
 }
-- (void)download {
+- (void)download:(UIButton*)btn {
     UILabel *tipLabel = [[UILabel alloc]initWithFrame:CGRectMake(100, 400, 100, 30)];
     tipLabel.backgroundColor = [UIColor grayColor];
     [self.view addSubview:tipLabel];
@@ -105,6 +138,7 @@
         tipLabel.alpha = 0;    //具体执行的动画
     }completion:^(BOOL finished) {
         [tipLabel removeFromSuperview];//动画完成后执行的操作
+        btn.enabled = NO;
     }];
 }
 
