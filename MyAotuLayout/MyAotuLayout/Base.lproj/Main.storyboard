@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
@@ -19,31 +18,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jRj-Uu-5H0" userLabel="redView">
-                                <rect key="frame" x="30" y="25" width="78" height="513"/>
-                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zxf-EH-LIW" userLabel="greenView">
+                                <rect key="frame" x="170" y="40" width="130" height="200"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hBe-zI-0YC" userLabel="blueView">
-                                <rect key="frame" x="118" y="25" width="156" height="410"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nz5-D3-RPz" userLabel="redView">
+                                <rect key="frame" x="20" y="40" width="130" height="200"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t2h-9q-bFZ" userLabel="blueView">
+                                        <rect key="frame" x="0.0" y="0.0" width="65" height="100"/>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="t2h-9q-bFZ" firstAttribute="height" secondItem="Nz5-D3-RPz" secondAttribute="height" multiplier="0.5" id="4NS-Y7-bnW"/>
+                                    <constraint firstItem="t2h-9q-bFZ" firstAttribute="leading" secondItem="Nz5-D3-RPz" secondAttribute="leading" id="5nE-j1-zag"/>
+                                    <constraint firstItem="t2h-9q-bFZ" firstAttribute="top" secondItem="Nz5-D3-RPz" secondAttribute="top" id="ROm-Tj-BKy"/>
+                                    <constraint firstItem="t2h-9q-bFZ" firstAttribute="width" secondItem="Nz5-D3-RPz" secondAttribute="width" multiplier="0.5" id="Z7r-Kf-ZSM"/>
+                                    <constraint firstAttribute="height" constant="200" id="xGa-gA-TtG"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="hBe-zI-0YC" firstAttribute="top" secondItem="jRj-Uu-5H0" secondAttribute="top" id="4Wa-zT-pHu"/>
-                            <constraint firstItem="hBe-zI-0YC" firstAttribute="height" secondItem="jRj-Uu-5H0" secondAttribute="height" multiplier="0.8" id="LjM-Ib-VOG"/>
-                            <constraint firstItem="jRj-Uu-5H0" firstAttribute="top" secondItem="bEl-NH-jlZ" secondAttribute="bottom" constant="5" id="LpJ-jX-xpt"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="hBe-zI-0YC" secondAttribute="trailing" constant="30" id="d9Q-ch-13i"/>
-                            <constraint firstItem="hBe-zI-0YC" firstAttribute="leading" secondItem="jRj-Uu-5H0" secondAttribute="trailing" constant="10" id="iql-6N-MXm"/>
-                            <constraint firstItem="hBe-zI-0YC" firstAttribute="width" secondItem="jRj-Uu-5H0" secondAttribute="width" multiplier="2" id="kg3-yj-jDx"/>
-                            <constraint firstItem="jRj-Uu-5H0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="r0Q-qj-1aK"/>
-                            <constraint firstItem="Qhf-Rq-Ogu" firstAttribute="top" secondItem="jRj-Uu-5H0" secondAttribute="bottom" constant="30" id="zIw-Is-pQo"/>
+                            <constraint firstItem="Zxf-EH-LIW" firstAttribute="leading" secondItem="Nz5-D3-RPz" secondAttribute="trailing" constant="20" id="1L2-a9-FOW"/>
+                            <constraint firstItem="Zxf-EH-LIW" firstAttribute="width" secondItem="Nz5-D3-RPz" secondAttribute="width" id="50e-s5-9TX"/>
+                            <constraint firstItem="Nz5-D3-RPz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="40" id="7WG-Go-b7X"/>
+                            <constraint firstItem="Nz5-D3-RPz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Jqk-OS-XUo"/>
+                            <constraint firstItem="Zxf-EH-LIW" firstAttribute="height" secondItem="Nz5-D3-RPz" secondAttribute="height" id="Oa4-Hz-x6v"/>
+                            <constraint firstItem="Nz5-D3-RPz" firstAttribute="top" secondItem="Zxf-EH-LIW" secondAttribute="top" id="WSw-iA-aIK"/>
+                            <constraint firstAttribute="trailing" secondItem="Zxf-EH-LIW" secondAttribute="trailing" constant="20" id="nCn-Y4-2PB"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="130" y="277"/>
+            <point key="canvasLocation" x="34" y="244"/>
         </scene>
     </scenes>
 </document>
