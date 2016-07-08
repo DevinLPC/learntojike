@@ -25,7 +25,7 @@
                                             <rect key="frame" x="15" y="0.0" width="570" height="43"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -75,6 +75,38 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9f2-cq-iE4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-206" y="236"/>
+        </scene>
+        <!--Content View Controller-->
+        <scene sceneID="ms9-ce-26m">
+            <objects>
+                <viewController storyboardIdentifier="contentView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="VKA-AE-aBa" customClass="contentViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aOs-P1-dOC"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZQA-Y0-pBw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="V8Q-da-iDp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="L8a-pQ-fYZ">
+                                <rect key="frame" x="252" y="285" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="L8a-pQ-fYZ" firstAttribute="centerX" secondItem="V8Q-da-iDp" secondAttribute="centerX" id="013-sK-P0U"/>
+                            <constraint firstItem="L8a-pQ-fYZ" firstAttribute="centerY" secondItem="V8Q-da-iDp" secondAttribute="centerY" id="p1l-mY-pox"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="contentTextField" destination="L8a-pQ-fYZ" id="mll-yS-X1T"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kOs-6G-gjs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1254" y="236"/>
         </scene>
     </scenes>
 </document>

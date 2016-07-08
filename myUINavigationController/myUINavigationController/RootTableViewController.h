@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "contentViewController.h"
 
 @interface RootTableViewController : UITableViewController
 

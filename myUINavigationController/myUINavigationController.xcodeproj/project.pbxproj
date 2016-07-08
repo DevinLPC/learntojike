@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E8ADCDC1D2F806B00299F8A /* contentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8ADCDB1D2F806B00299F8A /* contentViewController.m */; };
 		2EB17E1B1D2E3DA0007A716B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB17E1A1D2E3DA0007A716B /* main.m */; };
 		2EB17E1E1D2E3DA0007A716B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB17E1D1D2E3DA0007A716B /* AppDelegate.m */; };
 		2EB17E241D2E3DA0007A716B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB17E221D2E3DA0007A716B /* Main.storyboard */; };
@@ -49,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E8ADCDA1D2F806B00299F8A /* contentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contentViewController.h; sourceTree = "<group>"; };
+		2E8ADCDB1D2F806B00299F8A /* contentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = contentViewController.m; sourceTree = "<group>"; };
 		2EB17E161D2E3DA0007A716B /* myUINavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myUINavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EB17E1A1D2E3DA0007A716B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2EB17E1C1D2E3DA0007A716B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -116,6 +119,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E0D9E9B1D2F9013003EF21F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				2EB17E1C1D2E3DA0007A716B /* AppDelegate.h */,
+				2EB17E1D1D2E3DA0007A716B /* AppDelegate.m */,
+				2EB17E4C1D2E3E72007A716B /* RootTableViewController.h */,
+				2EB17E4D1D2E3E72007A716B /* RootTableViewController.m */,
+				2E8ADCDA1D2F806B00299F8A /* contentViewController.h */,
+				2E8ADCDB1D2F806B00299F8A /* contentViewController.m */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
 		2EB17E0D1D2E3DA0007A716B = {
 			isa = PBXGroup;
 			children = (
@@ -142,10 +158,7 @@
 		2EB17E181D2E3DA0007A716B /* myUINavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				2EB17E1C1D2E3DA0007A716B /* AppDelegate.h */,
-				2EB17E1D1D2E3DA0007A716B /* AppDelegate.m */,
-				2EB17E4C1D2E3E72007A716B /* RootTableViewController.h */,
-				2EB17E4D1D2E3E72007A716B /* RootTableViewController.m */,
+				2E0D9E9B1D2F9013003EF21F /* src */,
 				2EB17E221D2E3DA0007A716B /* Main.storyboard */,
 				2EB17E251D2E3DA1007A716B /* Assets.xcassets */,
 				2EB17E271D2E3DA1007A716B /* LaunchScreen.storyboard */,
@@ -301,6 +314,7 @@
 				TargetAttributes = {
 					2EB17E151D2E3DA0007A716B = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4WAD4ZG6JV;
 					};
 					2EB17E2E1D2E3DA1007A716B = {
 						CreatedOnToolsVersion = 7.3;
@@ -399,6 +413,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E8ADCDC1D2F806B00299F8A /* contentViewController.m in Sources */,
 				2EB17E4E1D2E3E72007A716B /* RootTableViewController.m in Sources */,
 				2EB17E1E1D2E3DA0007A716B /* AppDelegate.m in Sources */,
 				2EB17E1B1D2E3DA0007A716B /* main.m in Sources */,
@@ -575,6 +590,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = myUINavigationController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jikeyueyuan.myUINavigationController;
@@ -586,6 +602,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = myUINavigationController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jikeyueyuan.myUINavigationController;
