@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2ECB37A91D31E97C00682AF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB37A81D31E97C00682AF4 /* AppDelegate.swift */; };
+		2ECB37AB1D31E97C00682AF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB37AA1D31E97C00682AF4 /* ViewController.swift */; };
+		2ECB37AE1D31E97C00682AF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ECB37AC1D31E97C00682AF4 /* Main.storyboard */; };
+		2ECB37B01D31E97C00682AF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ECB37AF1D31E97C00682AF4 /* Assets.xcassets */; };
+		2ECB37B31D31E97C00682AF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ECB37B11D31E97C00682AF4 /* LaunchScreen.storyboard */; };
+		2ECB37BE1D31E97D00682AF4 /* GraohicsAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB37BD1D31E97D00682AF4 /* GraohicsAPITests.swift */; };
+		2ECB37C91D31E97D00682AF4 /* GraohicsAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB37C81D31E97D00682AF4 /* GraohicsAPIUITests.swift */; };
+		2ECB37D71D31EB0000682AF4 /* LinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB37D61D31EB0000682AF4 /* LinesView.swift */; };
+		2ECB37D91D31F14700682AF4 /* RectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB37D81D31F14700682AF4 /* RectView.swift */; };
+		2ECB37DB1D31FE1400682AF4 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB37DA1D31FE1400682AF4 /* ShapeView.swift */; };
+		2ECB37DD1D32015300682AF4 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB37DC1D32015300682AF4 /* CircleView.swift */; };
+		2ECB37E01D3207CA00682AF4 /* CurveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB37DF1D3207CA00682AF4 /* CurveView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2ECB37BA1D31E97D00682AF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ECB379D1D31E97C00682AF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ECB37A41D31E97C00682AF4;
+			remoteInfo = GraohicsAPI;
+		};
+		2ECB37C51D31E97D00682AF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ECB379D1D31E97C00682AF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ECB37A41D31E97C00682AF4;
+			remoteInfo = GraohicsAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2ECB37A51D31E97C00682AF4 /* GraohicsAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraohicsAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ECB37A81D31E97C00682AF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2ECB37AA1D31E97C00682AF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2ECB37AD1D31E97C00682AF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2ECB37AF1D31E97C00682AF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2ECB37B21D31E97C00682AF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2ECB37B41D31E97D00682AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ECB37B91D31E97D00682AF4 /* GraohicsAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraohicsAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ECB37BD1D31E97D00682AF4 /* GraohicsAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraohicsAPITests.swift; sourceTree = "<group>"; };
+		2ECB37BF1D31E97D00682AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ECB37C41D31E97D00682AF4 /* GraohicsAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraohicsAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ECB37C81D31E97D00682AF4 /* GraohicsAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraohicsAPIUITests.swift; sourceTree = "<group>"; };
+		2ECB37CA1D31E97D00682AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ECB37D61D31EB0000682AF4 /* LinesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinesView.swift; sourceTree = "<group>"; };
+		2ECB37D81D31F14700682AF4 /* RectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectView.swift; sourceTree = "<group>"; };
+		2ECB37DA1D31FE1400682AF4 /* ShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		2ECB37DC1D32015300682AF4 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		2ECB37DF1D3207CA00682AF4 /* CurveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurveView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2ECB37A21D31E97C00682AF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ECB37B61D31E97D00682AF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ECB37C11D31E97D00682AF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ECB379C1D31E97C00682AF4 = {
+			isa = PBXGroup;
+			children = (
+				2ECB37A71D31E97C00682AF4 /* GraohicsAPI */,
+				2ECB37BC1D31E97D00682AF4 /* GraohicsAPITests */,
+				2ECB37C71D31E97D00682AF4 /* GraohicsAPIUITests */,
+				2ECB37A61D31E97C00682AF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2ECB37A61D31E97C00682AF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ECB37A51D31E97C00682AF4 /* GraohicsAPI.app */,
+				2ECB37B91D31E97D00682AF4 /* GraohicsAPITests.xctest */,
+				2ECB37C41D31E97D00682AF4 /* GraohicsAPIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2ECB37A71D31E97C00682AF4 /* GraohicsAPI */ = {
+			isa = PBXGroup;
+			children = (
+				2ECB37A81D31E97C00682AF4 /* AppDelegate.swift */,
+				2ECB37AA1D31E97C00682AF4 /* ViewController.swift */,
+				2ECB37DE1D32017400682AF4 /* views */,
+				2ECB37AC1D31E97C00682AF4 /* Main.storyboard */,
+				2ECB37AF1D31E97C00682AF4 /* Assets.xcassets */,
+				2ECB37B11D31E97C00682AF4 /* LaunchScreen.storyboard */,
+				2ECB37B41D31E97D00682AF4 /* Info.plist */,
+			);
+			path = GraohicsAPI;
+			sourceTree = "<group>";
+		};
+		2ECB37BC1D31E97D00682AF4 /* GraohicsAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				2ECB37BD1D31E97D00682AF4 /* GraohicsAPITests.swift */,
+				2ECB37BF1D31E97D00682AF4 /* Info.plist */,
+			);
+			path = GraohicsAPITests;
+			sourceTree = "<group>";
+		};
+		2ECB37C71D31E97D00682AF4 /* GraohicsAPIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2ECB37C81D31E97D00682AF4 /* GraohicsAPIUITests.swift */,
+				2ECB37CA1D31E97D00682AF4 /* Info.plist */,
+			);
+			path = GraohicsAPIUITests;
+			sourceTree = "<group>";
+		};
+		2ECB37DE1D32017400682AF4 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				2ECB37D61D31EB0000682AF4 /* LinesView.swift */,
+				2ECB37D81D31F14700682AF4 /* RectView.swift */,
+				2ECB37DA1D31FE1400682AF4 /* ShapeView.swift */,
+				2ECB37DC1D32015300682AF4 /* CircleView.swift */,
+				2ECB37DF1D3207CA00682AF4 /* CurveView.swift */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2ECB37A41D31E97C00682AF4 /* GraohicsAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ECB37CD1D31E97D00682AF4 /* Build configuration list for PBXNativeTarget "GraohicsAPI" */;
+			buildPhases = (
+				2ECB37A11D31E97C00682AF4 /* Sources */,
+				2ECB37A21D31E97C00682AF4 /* Frameworks */,
+				2ECB37A31D31E97C00682AF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraohicsAPI;
+			productName = GraohicsAPI;
+			productReference = 2ECB37A51D31E97C00682AF4 /* GraohicsAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2ECB37B81D31E97D00682AF4 /* GraohicsAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ECB37D01D31E97D00682AF4 /* Build configuration list for PBXNativeTarget "GraohicsAPITests" */;
+			buildPhases = (
+				2ECB37B51D31E97D00682AF4 /* Sources */,
+				2ECB37B61D31E97D00682AF4 /* Frameworks */,
+				2ECB37B71D31E97D00682AF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ECB37BB1D31E97D00682AF4 /* PBXTargetDependency */,
+			);
+			name = GraohicsAPITests;
+			productName = GraohicsAPITests;
+			productReference = 2ECB37B91D31E97D00682AF4 /* GraohicsAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2ECB37C31D31E97D00682AF4 /* GraohicsAPIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ECB37D31D31E97D00682AF4 /* Build configuration list for PBXNativeTarget "GraohicsAPIUITests" */;
+			buildPhases = (
+				2ECB37C01D31E97D00682AF4 /* Sources */,
+				2ECB37C11D31E97D00682AF4 /* Frameworks */,
+				2ECB37C21D31E97D00682AF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ECB37C61D31E97D00682AF4 /* PBXTargetDependency */,
+			);
+			name = GraohicsAPIUITests;
+			productName = GraohicsAPIUITests;
+			productReference = 2ECB37C41D31E97D00682AF4 /* GraohicsAPIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2ECB379D1D31E97C00682AF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jikexueyuan;
+				TargetAttributes = {
+					2ECB37A41D31E97C00682AF4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					2ECB37B81D31E97D00682AF4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2ECB37A41D31E97C00682AF4;
+					};
+					2ECB37C31D31E97D00682AF4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2ECB37A41D31E97C00682AF4;
+					};
+				};
+			};
+			buildConfigurationList = 2ECB37A01D31E97C00682AF4 /* Build configuration list for PBXProject "GraohicsAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2ECB379C1D31E97C00682AF4;
+			productRefGroup = 2ECB37A61D31E97C00682AF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2ECB37A41D31E97C00682AF4 /* GraohicsAPI */,
+				2ECB37B81D31E97D00682AF4 /* GraohicsAPITests */,
+				2ECB37C31D31E97D00682AF4 /* GraohicsAPIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ECB37A31D31E97C00682AF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECB37B31D31E97C00682AF4 /* LaunchScreen.storyboard in Resources */,
+				2ECB37B01D31E97C00682AF4 /* Assets.xcassets in Resources */,
+				2ECB37AE1D31E97C00682AF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ECB37B71D31E97D00682AF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ECB37C21D31E97D00682AF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ECB37A11D31E97C00682AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECB37DD1D32015300682AF4 /* CircleView.swift in Sources */,
+				2ECB37DB1D31FE1400682AF4 /* ShapeView.swift in Sources */,
+				2ECB37D71D31EB0000682AF4 /* LinesView.swift in Sources */,
+				2ECB37E01D3207CA00682AF4 /* CurveView.swift in Sources */,
+				2ECB37AB1D31E97C00682AF4 /* ViewController.swift in Sources */,
+				2ECB37D91D31F14700682AF4 /* RectView.swift in Sources */,
+				2ECB37A91D31E97C00682AF4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ECB37B51D31E97D00682AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECB37BE1D31E97D00682AF4 /* GraohicsAPITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ECB37C01D31E97D00682AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECB37C91D31E97D00682AF4 /* GraohicsAPIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2ECB37BB1D31E97D00682AF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ECB37A41D31E97C00682AF4 /* GraohicsAPI */;
+			targetProxy = 2ECB37BA1D31E97D00682AF4 /* PBXContainerItemProxy */;
+		};
+		2ECB37C61D31E97D00682AF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ECB37A41D31E97C00682AF4 /* GraohicsAPI */;
+			targetProxy = 2ECB37C51D31E97D00682AF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2ECB37AC1D31E97C00682AF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ECB37AD1D31E97C00682AF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2ECB37B11D31E97C00682AF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ECB37B21D31E97C00682AF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2ECB37CB1D31E97D00682AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2ECB37CC1D31E97D00682AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2ECB37CE1D31E97D00682AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GraohicsAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jikeyueyuan.GraohicsAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2ECB37CF1D31E97D00682AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GraohicsAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jikeyueyuan.GraohicsAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2ECB37D11D31E97D00682AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GraohicsAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jikeyueyuan.GraohicsAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraohicsAPI.app/GraohicsAPI";
+			};
+			name = Debug;
+		};
+		2ECB37D21D31E97D00682AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GraohicsAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jikeyueyuan.GraohicsAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraohicsAPI.app/GraohicsAPI";
+			};
+			name = Release;
+		};
+		2ECB37D41D31E97D00682AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GraohicsAPIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jikeyueyuan.GraohicsAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GraohicsAPI;
+			};
+			name = Debug;
+		};
+		2ECB37D51D31E97D00682AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GraohicsAPIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jikeyueyuan.GraohicsAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GraohicsAPI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2ECB37A01D31E97C00682AF4 /* Build configuration list for PBXProject "GraohicsAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ECB37CB1D31E97D00682AF4 /* Debug */,
+				2ECB37CC1D31E97D00682AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ECB37CD1D31E97D00682AF4 /* Build configuration list for PBXNativeTarget "GraohicsAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ECB37CE1D31E97D00682AF4 /* Debug */,
+				2ECB37CF1D31E97D00682AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2ECB37D01D31E97D00682AF4 /* Build configuration list for PBXNativeTarget "GraohicsAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ECB37D11D31E97D00682AF4 /* Debug */,
+				2ECB37D21D31E97D00682AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2ECB37D31D31E97D00682AF4 /* Build configuration list for PBXNativeTarget "GraohicsAPIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ECB37D41D31E97D00682AF4 /* Debug */,
+				2ECB37D51D31E97D00682AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2ECB379D1D31E97C00682AF4 /* Project object */;
+}
