@@ -209,7 +209,6 @@
         <!--绘制线条-->
         <scene sceneID="AgZ-Cq-Cmo">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uIB-kU-9LB" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="aSa-2u-vQF" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XWP-Wy-PvB"/>
@@ -222,6 +221,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="绘制线条" id="fdm-Zr-dRE"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uIB-kU-9LB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1513" y="-1367"/>
         </scene>
